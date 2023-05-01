@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+        background-color:red;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content:center;
+}
+
+
+header div {
+    display: flex;
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+header div h3{
+    color: #fff;
+    padding: 5px;
+}
+
+header div input{
+    height: 1em;
+}
+Header div h1, input{
+    padding:10px;
+}
+
+header nav {
+    display: flex;
+    gap:50px;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration:none;
+    background-color: #e67979;
+    padding: 12px;
+    border-radius: 17px;
+}
+
+.principal {
+    background-color: black;
+    color: #fff;
+    height: 25vh;
+    text-align: center;
+    padding: 1em;
+   
+}
+
+.principal p{
+    padding-top: 5em;
+    }
+
+.segunda{
+    color:white;
+    background-color:red;
+    text-align: center;
+    height: 20vh;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor{
+    display: flex;
+    margin: 2px;
+}
+
+
