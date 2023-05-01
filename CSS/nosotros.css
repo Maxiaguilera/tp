@@ -47,11 +47,11 @@ nav a{
 nav a:hover{
     background-color: white;
     color: black;
-    height:80%;
+    margin: 0;
 }
 
 .main {
-    width: 900px;
+    width: 850px;
     border:#666666 solid 20px;
     margin-top: none;
     margin-right: 15px;
@@ -62,18 +62,22 @@ nav a:hover{
     width: 100%;
 }
 
-.articulos img{
-    width:15%;
-    height:15%;
+.articulos img {
+    width: 20em;
+    height: 20em;
+
 }
 
-.articulos {
+.articulos{
     display: flex;
-    flex-wrap: wrap ;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
 
-    }
-
+.articulos p{
+    width:20em;
+}
 
 
 .destacado{
@@ -105,10 +109,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 article p {
-    width: 400px;
+    width: 350px;
 }
 
 article {
